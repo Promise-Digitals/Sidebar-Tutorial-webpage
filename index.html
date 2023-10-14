@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="bars" onclick="slide()"><i class="fa-solid fa-bars"></i></div>
+        <div class="sidebar" id="demo">
+            <h1>My Apps <span><i class="fa-solid fa-xmark" onclick="slide_back()"></i></span></h1>
+            <ul><li><a href="#"><i class="fa-solid fa-qrcode"></i>Dashboard</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-link"></i>Shortcuts</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-stream"></i>Overview</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-calendar-week"></i>Events</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-question-circle"></i>About</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-sliders-h"></i>Services</a></li></ul>
+            <ul><li><a href="#"><i class="fa-solid fa-envelope"></i>Contact</a></li></ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function slide(){
+            document.getElementById("demo").style.left="0";
+        }
+        function slide_back(){
+            document.getElementById("demo").style.left="-300px";
+        }
+    </script>
+</body>
+</html>
