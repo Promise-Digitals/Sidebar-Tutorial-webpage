@@ -17,14 +17,14 @@
     left: 0;
     width: 250px;
     height: 100%;
-    background: #1f2b37;
+    background: #181818;
     z-index: 1;
     position: relative;
     left: -300px;
     transition: 0.6s;
 }
 .sidebar h1{
-    color: #4f76f6;
+    color: #6660ff;
     padding: 30px 30px;
     text-align: center;
     cursor: default;
@@ -33,7 +33,7 @@
     padding: 20px;
     margin-left: 0 20px;
     list-style-type: none;
-    border-top: 1px solid black;
+    border-top: 1px solid #181818;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     transition: 0.8s;
 }
@@ -57,7 +57,7 @@
 .bars .fa-bars{
     font-size: 24px;
     font-weight: 900;
-    color:#063146;
+    color:#000600;
 }
 
 h1 span .fa-xmark{
@@ -65,6 +65,6 @@ h1 span .fa-xmark{
     top: 0;
     right: 0;
     font-size: 20px;
-    border: 1px inset #063146;
+    border: 1px inset #000600;
     color: #fff;
 }
